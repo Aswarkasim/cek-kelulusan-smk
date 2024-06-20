@@ -15,7 +15,7 @@
 
                 <table class="table">
                     <tr>
-                        <td>NISN</td>
+                        <td>No. Tes</td>
                         <td>: {{ $calon->nisn }}</td>
                     </tr>
                     <tr>

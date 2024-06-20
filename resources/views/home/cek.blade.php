@@ -15,8 +15,8 @@
                         <a href="/" class="btn btn-secondary"><i  class="fas fa-arrow-left"></i> Kembali</a>
                         <form action="/cek/proses" method="get">
                             <div class="form-group">
-                                <label for=""><b>NISN</b></label>
-                                <input type="text" class="form-control @error('nisn')  is-invalid @enderror" name="nisn" placeholder="NISN" value="{{  isset($user) ? $user->nisn : '' }}">
+                                <label for=""><b>No. Tes</b></label>
+                                <input type="text" class="form-control @error('nisn')  is-invalid @enderror" name="nisn" placeholder="No Tes" value="{{  isset($user) ? $user->nisn : '' }}">
     
                                 @error('nisn')
                                     <div class="invalid-feedback">
